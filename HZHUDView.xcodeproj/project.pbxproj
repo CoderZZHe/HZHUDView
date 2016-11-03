@@ -12,10 +12,10 @@
 		6F49ED141DCB36B000EAE220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F49ED071DCB36B000EAE220 /* Assets.xcassets */; };
 		6F49ED151DCB36B000EAE220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F49ED081DCB36B000EAE220 /* LaunchScreen.storyboard */; };
 		6F49ED161DCB36B000EAE220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F49ED0A1DCB36B000EAE220 /* Main.storyboard */; };
-		6F49ED171DCB36B000EAE220 /* HZHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED0E1DCB36B000EAE220 /* HZHUDView.m */; };
 		6F49ED181DCB36B000EAE220 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F49ED0F1DCB36B000EAE220 /* Info.plist */; };
 		6F49ED191DCB36B000EAE220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED101DCB36B000EAE220 /* main.m */; };
 		6F49ED1A1DCB36B000EAE220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED121DCB36B000EAE220 /* ViewController.m */; };
+		6F49ED1E1DCB420700EAE220 /* HZHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED1D1DCB420700EAE220 /* HZHUDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		6F49ED071DCB36B000EAE220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F49ED091DCB36B000EAE220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F49ED0B1DCB36B000EAE220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F49ED0D1DCB36B000EAE220 /* HZHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHUDView.h; sourceTree = "<group>"; };
-		6F49ED0E1DCB36B000EAE220 /* HZHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHUDView.m; sourceTree = "<group>"; };
 		6F49ED0F1DCB36B000EAE220 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F49ED101DCB36B000EAE220 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F49ED111DCB36B000EAE220 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F49ED121DCB36B000EAE220 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F49ED1C1DCB420700EAE220 /* HZHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHUDView.h; sourceTree = "<group>"; };
+		6F49ED1D1DCB420700EAE220 /* HZHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHUDView.m; sourceTree = "<group>"; };
 		BA99E0ECAE86A4D92B93B6DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				6F49ED041DCB36B000EAE220 /* HZHUDViewDemo */,
+				6F49ED1B1DCB420700EAE220 /* HZHUDView */,
 				6F49ECE51DCADB7200EAE220 /* Products */,
 				A9B7EB291121DAA87012BF71 /* Pods */,
 				DF0AC4E6E255E83981A71E75 /* Frameworks */,
@@ -69,7 +70,6 @@
 		6F49ED041DCB36B000EAE220 /* HZHUDViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F49ED0C1DCB36B000EAE220 /* HZHUDView */,
 				6F49ED051DCB36B000EAE220 /* AppDelegate.h */,
 				6F49ED061DCB36B000EAE220 /* AppDelegate.m */,
 				6F49ED071DCB36B000EAE220 /* Assets.xcassets */,
@@ -83,11 +83,11 @@
 			path = HZHUDViewDemo;
 			sourceTree = "<group>";
 		};
-		6F49ED0C1DCB36B000EAE220 /* HZHUDView */ = {
+		6F49ED1B1DCB420700EAE220 /* HZHUDView */ = {
 			isa = PBXGroup;
 			children = (
-				6F49ED0D1DCB36B000EAE220 /* HZHUDView.h */,
-				6F49ED0E1DCB36B000EAE220 /* HZHUDView.m */,
+				6F49ED1C1DCB420700EAE220 /* HZHUDView.h */,
+				6F49ED1D1DCB420700EAE220 /* HZHUDView.m */,
 			);
 			path = HZHUDView;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F49ED171DCB36B000EAE220 /* HZHUDView.m in Sources */,
+				6F49ED1E1DCB420700EAE220 /* HZHUDView.m in Sources */,
 				6F49ED191DCB36B000EAE220 /* main.m in Sources */,
 				6F49ED1A1DCB36B000EAE220 /* ViewController.m in Sources */,
 				6F49ED131DCB36B000EAE220 /* AppDelegate.m in Sources */,
