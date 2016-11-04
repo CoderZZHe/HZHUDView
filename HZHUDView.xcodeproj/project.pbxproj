@@ -15,8 +15,8 @@
 		6F49ED181DCB36B000EAE220 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F49ED0F1DCB36B000EAE220 /* Info.plist */; };
 		6F49ED191DCB36B000EAE220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED101DCB36B000EAE220 /* main.m */; };
 		6F49ED1A1DCB36B000EAE220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED121DCB36B000EAE220 /* ViewController.m */; };
-		6F49ED1E1DCB420700EAE220 /* HZHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED1D1DCB420700EAE220 /* HZHUDView.m */; };
-		6F679F251DCC207F0007D74A /* HZHUDView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F679F241DCC207F0007D74A /* HZHUDView.bundle */; };
+		6F679F271DCC2D800007D74A /* HZHUDView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F679F241DCC207F0007D74A /* HZHUDView.bundle */; };
+		6F679F281DCC2D830007D74A /* HZHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED1D1DCB420700EAE220 /* HZHUDView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,7 +178,7 @@
 				6F49ED161DCB36B000EAE220 /* Main.storyboard in Resources */,
 				6F49ED141DCB36B000EAE220 /* Assets.xcassets in Resources */,
 				6F49ED151DCB36B000EAE220 /* LaunchScreen.storyboard in Resources */,
-				6F679F251DCC207F0007D74A /* HZHUDView.bundle in Resources */,
+				6F679F271DCC2D800007D74A /* HZHUDView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F49ED1E1DCB420700EAE220 /* HZHUDView.m in Sources */,
+				6F679F281DCC2D830007D74A /* HZHUDView.m in Sources */,
 				6F49ED191DCB36B000EAE220 /* main.m in Sources */,
 				6F49ED1A1DCB36B000EAE220 /* ViewController.m in Sources */,
 				6F49ED131DCB36B000EAE220 /* AppDelegate.m in Sources */,

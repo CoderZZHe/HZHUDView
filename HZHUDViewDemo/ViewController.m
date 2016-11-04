@@ -75,7 +75,7 @@
             break;
             
         case 6:
-            [HZHUDView showLoadingWithImage:[UIImage imageNamed:@"image"] text:@"自定义文字"];
+            [HZHUDView showLoadingWithImage:[UIImage imageNamed:@"image"] text:@"自定义图片文字"];
             break;
             
         case 7:
