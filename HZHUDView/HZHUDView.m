@@ -23,6 +23,9 @@ static CGFloat const maxmargin = 15.0f;
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
 #define HUDFontSize 13.0f
 #define MIN_WIDTH 100.0f
+    
+// 获取bundle中文件的路径
+#define HZZPathResoce(name) [[[NSBundle mainBundle] pathForResource:@"HZHUDView.bundle" ofType:nil] stringByAppendingPathComponent:name]
 
 + (void)showStatus:(HZHUDStatus)status image:(UIImage *)image text:(NSString *)text hide:(NSTimeInterval)time{
     
@@ -172,19 +175,22 @@ static CGFloat const maxmargin = 15.0f;
 /** 成功提示 */
 + (void)showSuccessText:(NSString *)text{
     [self hideHZHUD];
-    [self showStatus:HZHUDStatusSuccess image:HUDImage(@"hud_success") text:text hide:sfiTime];
+    UIImage *successImage = [UIImage imageWithContentsOfFile:HZZPathResoce(@"hud_success")];
+    [self showStatus:HZHUDStatusSuccess image:successImage text:text hide:sfiTime];
 }
 
 /** 错误提示 */
 + (void)showFailureText:(NSString *)text{
     [self hideHZHUD];
-    [self showStatus:HZHUDStatusFailure image:HUDImage(@"hud_error") text:text hide:sfiTime];
+    UIImage *errorImage = [UIImage imageWithContentsOfFile:HZZPathResoce(@"hud_error")];
+    [self showStatus:HZHUDStatusFailure image:errorImage text:text hide:sfiTime];
 }
 
 /** 警告提示 */
 + (void)showInfoText:(NSString *)text{
     [self hideHZHUD];
-    [self showStatus:HZHUDStatusInfo image:HUDImage(@"hud_info") text:text hide:sfiTime];
+    UIImage *infoImage = [UIImage imageWithContentsOfFile:HZZPathResoce(@"hud_info")];
+    [self showStatus:HZHUDStatusInfo image:infoImage text:text hide:sfiTime];
 }
 
 /** 只有转圈 */

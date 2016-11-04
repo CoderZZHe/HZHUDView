@@ -16,6 +16,7 @@
 		6F49ED191DCB36B000EAE220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED101DCB36B000EAE220 /* main.m */; };
 		6F49ED1A1DCB36B000EAE220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED121DCB36B000EAE220 /* ViewController.m */; };
 		6F49ED1E1DCB420700EAE220 /* HZHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49ED1D1DCB420700EAE220 /* HZHUDView.m */; };
+		6F679F251DCC207F0007D74A /* HZHUDView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F679F241DCC207F0007D74A /* HZHUDView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6F49ED121DCB36B000EAE220 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F49ED1C1DCB420700EAE220 /* HZHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZHUDView.h; sourceTree = "<group>"; };
 		6F49ED1D1DCB420700EAE220 /* HZHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZHUDView.m; sourceTree = "<group>"; };
+		6F679F241DCC207F0007D74A /* HZHUDView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HZHUDView.bundle; sourceTree = "<group>"; };
 		BA99E0ECAE86A4D92B93B6DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		6F49ED1B1DCB420700EAE220 /* HZHUDView */ = {
 			isa = PBXGroup;
 			children = (
+				6F679F241DCC207F0007D74A /* HZHUDView.bundle */,
 				6F49ED1C1DCB420700EAE220 /* HZHUDView.h */,
 				6F49ED1D1DCB420700EAE220 /* HZHUDView.m */,
 			);
@@ -175,6 +178,7 @@
 				6F49ED161DCB36B000EAE220 /* Main.storyboard in Resources */,
 				6F49ED141DCB36B000EAE220 /* Assets.xcassets in Resources */,
 				6F49ED151DCB36B000EAE220 /* LaunchScreen.storyboard in Resources */,
+				6F679F251DCC207F0007D74A /* HZHUDView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
