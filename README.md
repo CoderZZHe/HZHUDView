@@ -26,7 +26,6 @@
 * 只有转圈
 
    `+ (void)showLoading;`
-   
    ![转圈](http://upload-images.jianshu.io/upload_images/1115226-3a5db612016ddc00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
    
    ***
